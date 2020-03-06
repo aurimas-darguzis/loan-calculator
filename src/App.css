@@ -1,3 +1,38 @@
-.App {
-  text-align: center;
+.AppContainer {
+  padding: 20px;
+}
+
+.LoanInputContainer {
+  margin-bottom: 20px;
+}
+
+.Header {
+  margin-bottom: 20px;
+}
+
+.MainContent {
+  display: grid;
+  justify-items: center;
+}
+
+.CenteredRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.CenteredRow input {
+  margin-right: 10px;
+}
+
+.TablesContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+h1 {
+  margin: 0;
+}
+
+.marginBottom10 {
+  margin-bottom: 10px;
 }
